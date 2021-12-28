@@ -1,13 +1,16 @@
 import React, {Fragment} from 'react'
 import styled from 'styled-components'
-import { StaticImage } from 'gatsby-plugin-image'
 import '@fontsource/amiri'
 import '@fontsource/open-sans'
 
 import GlobalStyle from '../components/global-styles'
 import CV from '../files/Lars-Natus-CV.pdf'
 import ISO from '../files/Lars-Natus-Information-Security-Officer.pdf'
+import ICON from '../images/icon.svg'
 import ME from '../images/me.png'
+import TUEV from '../images/tüv-süd.png'
+import LI from '../images/linkedIn.svg'
+import FB from '../images/facebook.svg'
 
 const Main = styled.div`
   text-align: center;
@@ -58,7 +61,7 @@ const IndexPage = () => {
       <title>Lars Natus</title>
       <Header>
         <a href="/">
-          <StaticImage src="../images/icon.svg" width={80} alt="Lars Natus"></StaticImage> 
+          <img src={ICON} width={80} alt="Lars Natus"></img>
         </a>
       </Header>
         <img src={ME} width={300} alt="Lars Natus"></img>
@@ -79,7 +82,7 @@ const IndexPage = () => {
         </p>
         <div>
           <a href={ISO} target="_blank" rel="noreferrer">
-            <StaticImage src="../images/tüv-süd.png" width={48} alt="Lars Natus linkedIn"></StaticImage> 
+            <img src={TUEV} alt="Lars Natus Information Security Officer"></img>
           </a>
         </div>
         <h4>Services</h4>
@@ -102,10 +105,10 @@ const IndexPage = () => {
         <br></br>
         me [at] larsnatus.com</p>
         <a href="https://www.linkedin.com/in/larsnatus/" target="_blank" rel="noreferrer">
-          <StaticImage src="../images/linkedIn.svg" width={48} alt="Lars Natus linkedIn"></StaticImage> 
+         <img src={LI} alt="Lars Natus linkedIN"></img>
         </a>
         <a href="https://fb.me/larsnatus" target="_blank" rel="noreferrer">
-          <StaticImage src="../images/facebook.svg" width={48} alt="Lars Natus facebook"></StaticImage> 
+          <img src={FB} alt="Lars Natus facebook"></img>
         </a>
         <div>
           <a href={CV} target="_blank" rel="noreferrer">
