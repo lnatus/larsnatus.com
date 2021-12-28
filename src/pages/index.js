@@ -7,6 +7,7 @@ import '@fontsource/open-sans'
 import GlobalStyle from '../components/global-styles'
 import CV from '../files/Lars-Natus-CV.pdf'
 import ISO from '../files/Lars-Natus-Information-Security-Officer.pdf'
+import ME from '../images/me.png'
 
 const Main = styled.div`
   text-align: center;
@@ -60,7 +61,7 @@ const IndexPage = () => {
           <StaticImage src="../images/icon.svg" width={80} alt="Lars Natus"></StaticImage> 
         </a>
       </Header>
-        <StaticImage src="../images/me.png" width={300} alt="Lars Natus"></StaticImage>
+        <img src={ME} width={300} alt="Lars Natus"></img>
       <Intro>
         <h1>Lars Natus</h1> 
         <h2>Solution Architekt &middot;
