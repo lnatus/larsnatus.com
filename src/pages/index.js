@@ -61,7 +61,7 @@ const IndexPage = () => {
       <title>Lars Natus</title>
       <Header>
         <a href="/">
-          <img src={ICON} width={80} alt="Lars Natus"></img>
+          <img src={ICON} width={80} alt="Lars Natus Logo"></img>
         </a>
       </Header>
         <img src={ME} width={300} alt="Lars Natus"></img>
