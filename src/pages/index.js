@@ -82,7 +82,7 @@ const IndexPage = () => {
         </p>
         <div>
           <a href={ISO} target="_blank" rel="noreferrer">
-            <img src={TUEV} alt="Lars Natus Information Security Officer"></img>
+            <img src={TUEV} width={48} alt="Lars Natus Information Security Officer"></img>
           </a>
         </div>
         <h4>Services</h4>
@@ -105,10 +105,10 @@ const IndexPage = () => {
         <br></br>
         me [at] larsnatus.com</p>
         <a href="https://www.linkedin.com/in/larsnatus/" target="_blank" rel="noreferrer">
-         <img src={LI} alt="Lars Natus linkedIN"></img>
+         <img src={LI} width={48} alt="Lars Natus linkedIN"></img>
         </a>
         <a href="https://fb.me/larsnatus" target="_blank" rel="noreferrer">
-          <img src={FB} alt="Lars Natus facebook"></img>
+          <img src={FB} width={48} alt="Lars Natus facebook"></img>
         </a>
         <div>
           <a href={CV} target="_blank" rel="noreferrer">
