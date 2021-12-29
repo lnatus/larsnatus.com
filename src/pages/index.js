@@ -3,44 +3,31 @@ import styled from 'styled-components'
 import '@fontsource/amiri'
 import '@fontsource/open-sans'
 
+import Header from '../components/header'
+import Main from '../components/main'
+import Footer from '../components/footer'
 import GlobalStyle from '../components/global-styles'
+
 import CV from '../files/Lars-Natus-CV.pdf'
 import ISO from '../files/Lars-Natus-Information-Security-Officer.pdf'
-import ICON from '../images/icon.svg'
 import ME from '../images/me.png'
 import TUEV from '../images/tüv-süd.png'
 import LI from '../images/linkedIn.svg'
 import FB from '../images/facebook.svg'
 
-const Main = styled.div`
-  text-align: center;
-  padding: 0 2em;
-  p {
-    margin: 0 0 10px 0;
-  }
-  margin: 0 auto;
-
-  @media only screen and (min-width: 768px) {
-    max-width: 50%;
-  }
-`
-const Header = styled.header`
-  padding: 3em 0;
-`
-
-const Intro = styled.section`
-`
 const Bio = styled.section`
   a {
     display: inline-block;
     margin: 0.5em;
   }
 `
+
 const Services = styled.ul`
   margin: 0;
   padding: 0;
   list-style: none;
 `
+
 const Quote = styled.section`
   margin: 3em 0;
   padding: 4em 1em;
@@ -49,29 +36,21 @@ const Quote = styled.section`
   border-bottom: 1px solid #DDD;
   font-style: italic;
 `
-const Footer = styled.footer`
-  margin-bottom: 3em;
-`
 
 const IndexPage = () => {
   return (
     <Fragment>
       <GlobalStyle/>
+      <Header title={'Lars Natus'}/>
       <Main>
-      <title>Lars Natus</title>
-      <Header>
-        <a href="/">
-          <img src={ICON} width={80} alt="Lars Natus Logo"></img>
-        </a>
-      </Header>
-        <img src={ME} width={300} alt="Lars Natus"></img>
-      <Intro>
+      <img src={ME} width={300} alt="Lars Natus"></img>
+      <section>
         <h1>Lars Natus</h1> 
         <h2>Solution Architekt &middot;
             Projektmanager &middot;
             Information Security Officer
         </h2>
-      </Intro>
+      </section>
       <Bio>
         <h4>Hallo</h4>
         <p>
@@ -125,15 +104,9 @@ const IndexPage = () => {
           Others make it happen
         </p>
        <small>- Michael Jordan</small>
-      </Quote>
-      <Footer>
-        <small>
-        © 2022 &middot; made with ♥️ by larnatus.com 
-        <br></br>
-        <a href="/impressum">impressum</a>
-        </small>
-      </Footer>
+      </Quote>   
     </Main>
+    <Footer/> 
     </Fragment>
   )
 }
