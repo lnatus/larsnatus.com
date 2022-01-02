@@ -15,11 +15,18 @@ import ME from '../images/me.png'
 import TUEV from '../images/tüv-süd.png'
 import LI from '../images/linkedIn.svg'
 import FB from '../images/facebook.svg'
+import SM365 from '../images/service-m365.svg'
+import SAGILE from '../images/service-agile.svg'
+import SDESIGN from '../images/service-design.svg'
+import SISC from '../images/service-isc.svg'
 
 const Bio = styled.section`
   a {
     display: inline-block;
     margin: 0.5em;
+  }
+  p:first-of-type {
+    text-align: justify;
   }
 `
 
@@ -27,6 +34,10 @@ const Services = styled.ul`
   margin: 0;
   padding: 0;
   list-style: none;
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
 `
 
 const Quote = styled.section`
@@ -68,19 +79,16 @@ const IndexPage = () => {
         <h4>Services</h4>
         <Services>
           <li>
-            Microsoft 365 Consulting
+            <img src={SM365} width={180} alt="M365 Consulting & Development"></img>
           </li>
           <li>
-            Microsoft 365 Development
+            <img src={SAGILE} width={180} alt="Agile Project Management"></img>
           </li>
           <li>
-            Agiles Projektmanagement 
+           <img src={SDESIGN} width={180} alt="Design & Content Creation"></img>
           </li>
           <li>
-            Design &amp; Content Creation 
-          </li>
-          <li>
-            Information Security Consulting
+            <img src={SISC} width={180} alt="Information Security Consulting"></img>
           </li>
         </Services>
         <h4>Kontakt</h4>
