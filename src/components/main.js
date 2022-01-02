@@ -10,7 +10,7 @@ const MainStyled = styled.div`
     margin: 0 auto;
 
     @media only screen and (min-width: 768px) {
-    max-width: 50%;
+    max-width: 65%;
     }
 `
 
