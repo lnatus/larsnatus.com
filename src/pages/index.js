@@ -7,6 +7,7 @@ import Header from '../components/header'
 import Main from '../components/main'
 import Footer from '../components/footer'
 import GlobalStyle from '../components/global-styles'
+import Link from '../components/link'
 
 import CV from '../files/Lars-Natus-CV.pdf'
 import ISO from '../files/Lars-Natus-Information-Security-Officer.pdf'
@@ -76,6 +77,9 @@ const IndexPage = () => {
             Agiles Projektmanagement 
           </li>
           <li>
+            Design &amp; Content Creation 
+          </li>
+          <li>
             Information Security Consulting
           </li>
         </Services>
@@ -90,9 +94,9 @@ const IndexPage = () => {
           <img src={FB} width={48} alt="Lars Natus facebook"></img>
         </a>
         <div>
-          <a href={CV} target="_blank" rel="noreferrer">
+          <Link href={CV} target="_blank" rel="noreferrer">
             Lebenslauf ansehen
-          </a>
+          </Link>
         </div>
       </Bio>
       <Quote>

@@ -15,26 +15,24 @@ const GlobalStyle = createGlobalStyle`
 
   *::-moz-selection { 
     color: #000;
-    background: #EAD019;
+    background: #11A8DB;
   }
   
   *::selection {
     color: #000;
-    background: #EAD019;
+    background: #11A8DB;
   }
 
   a {
-    color: #EAD019;
-    text-decoration: underline;
+    color: #FFF;
   }
 
   h1 {
     font-family: "Amiri";
     font-size: 54px;
     display: inline-block;
-    background: #EAD019;
+    background-image: linear-gradient(-45deg, #11DBB4 0%, #11A8DB 35%, #612CB8 100%);
     padding: 0 24px;
-    color: #000;
   }
 
   h4 {
