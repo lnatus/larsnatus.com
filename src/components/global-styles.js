@@ -41,6 +41,11 @@ const GlobalStyle = createGlobalStyle`
     font-size: 38px;
   }
 
+  h5 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+  }
+
   small, 
   small a {
       font-size: 12px;

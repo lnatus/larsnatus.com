@@ -8,6 +8,7 @@ import Main from '../components/main'
 import Footer from '../components/footer'
 import GlobalStyle from '../components/global-styles'
 import Link from '../components/link'
+import WorkList from '../components/work-list'
 
 import CV from '../files/Lars-Natus-CV.pdf'
 import ISO from '../files/Lars-Natus-Information-Security-Officer.pdf'
@@ -25,11 +26,7 @@ const Bio = styled.section`
     display: inline-block;
     margin: 0.5em;
   }
-  p:first-of-type {
-    text-align: justify;
-  }
 `
-
 const Services = styled.ul`
   margin: 0;
   padding: 0;
@@ -39,13 +36,14 @@ const Services = styled.ul`
     margin: 10px;
   }
 `
-
+const Work = styled.ul`
+  margin: 0;
+  padding: 0;
+  list-style: none;
+`
 const Quote = styled.section`
-  margin: 3em 0;
   padding: 4em 1em;
   text-align: center;
-  border-top: 1px solid #DDD;
-  border-bottom: 1px solid #DDD;
   font-style: italic;
 `
 
@@ -71,11 +69,6 @@ const IndexPage = () => {
           Mit mehr als 10 Jahren Erfahrung im Bereich Software Entwicklung und agilem Projektmanagement schlage ich die Brücke zwischen technischer Beratung und Implementierung. 
           Mit einem geschulten Auge für Design und der Freude am Erstellen von neuen Inhalten, unterstütze ich darüber hinaus auch in den Bereichen Visualisierung und Content Creation.
         </p>
-        <div>
-          <a href={ISO} target="_blank" rel="noreferrer">
-            <img src={TUEV} width={48} alt="Lars Natus Information Security Officer"></img>
-          </a>
-        </div>
         <h4>Services</h4>
         <Services>
           <li>
@@ -91,6 +84,8 @@ const IndexPage = () => {
             <img src={SISC} width={180} alt="Information Security Consulting"></img>
           </li>
         </Services>
+        <h4>Work</h4>
+        <WorkList></WorkList>
         <h4>Kontakt</h4>
         <p>Saarbrücken, Germany
         <br></br>
@@ -106,6 +101,9 @@ const IndexPage = () => {
             Lebenslauf ansehen
           </Link>
         </div>
+          <a href={ISO} target="_blank" rel="noreferrer">
+            <img src={TUEV} width={48} alt="Lars Natus Information Security Officer"></img>
+          </a>
       </Bio>
       <Quote>
         <p>

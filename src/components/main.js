@@ -9,8 +9,8 @@ const MainStyled = styled.div`
     }
     margin: 0 auto;
 
-    @media only screen and (min-width: 768px) {
-    max-width: 65%;
+    @media only screen and (min-width: 1024px) {
+        max-width: 50%;
     }
 `
 
