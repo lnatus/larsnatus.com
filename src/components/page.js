@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import BG from '../images/bg.png'
+import BG from '../images/bg.jpg'
 
 const PageStyled = styled.section`
   background-image: url(${BG});
