@@ -3,12 +3,14 @@ import styled from 'styled-components'
 import '@fontsource/amiri'
 import '@fontsource/open-sans'
 
+import Page from '../components/page'
 import Header from '../components/header'
 import Main from '../components/main'
 import Footer from '../components/footer'
 import GlobalStyle from '../components/global-styles'
 import Link from '../components/link'
 import WorkList from '../components/work-list'
+import Middot from '../components/middot'
 
 import CV from '../files/Lars-Natus-CV.pdf'
 import ISO from '../files/Lars-Natus-Information-Security-Officer.pdf'
@@ -36,11 +38,7 @@ const Services = styled.ul`
     margin: 10px;
   }
 `
-const Work = styled.ul`
-  margin: 0;
-  padding: 0;
-  list-style: none;
-`
+
 const Quote = styled.section`
   padding: 4em 1em;
   text-align: center;
@@ -51,16 +49,17 @@ const IndexPage = () => {
   return (
     <Fragment>
       <GlobalStyle/>
+      <Page>
       <Header title={'Lars Natus'}/>
       <Main>
-      <img src={ME} width={300} alt="Lars Natus"></img>
-      <section>
-        <h1>Lars Natus</h1> 
-        <h2>Solution Architekt &middot;
-            Projektmanager &middot;
-            Information Security Officer
-        </h2>
-      </section>
+        <img src={ME} width={300} alt="Lars Natus"></img>
+        <section>
+          <h1>Lars Natus</h1> 
+          <h2>Solution Architekt <Middot /> 
+              Projektmanager <Middot /> 
+              Information Security Officer
+          </h2>
+      </section> 
       <Bio>
         <h4>Hallo</h4>
         <p>
@@ -117,6 +116,7 @@ const IndexPage = () => {
       </Quote>   
     </Main>
     <Footer/> 
+    </Page>
     </Fragment>
   )
 }

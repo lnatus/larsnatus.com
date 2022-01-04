@@ -31,8 +31,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: "Amiri";
     font-size: 54px;
     display: inline-block;
-    background-image: linear-gradient(-45deg, #11DBB4 0%, #11A8DB 35%, #612CB8 100%);
-    padding: 0 24px;
+    margin: 30px 0 0 0;
   }
 
   h4 {

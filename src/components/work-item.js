@@ -8,7 +8,7 @@ const WorkItemStyled = styled.li`
         margin: 40px 0;
         background-image: linear-gradient(-45deg, #11DBB4 0%, #11A8DB 35%, #612CB8 100%);
         width: 100%;
-        height: 3px;
+        height: 4px;
    }
 `
 function WorkItem(props) {
