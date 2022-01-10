@@ -45,15 +45,17 @@ const Intro = styled.section`
   border-radius: 30px;
   margin: 90px auto;
   box-sizing: border-box;
-  padding: 60px;
+  padding: 60px 15px;
   p {
     margin-top: 30px;
   }
   img {
-    max-width: 100%;
+    max-width: 90%;
   }
   @media only screen and (min-width: 1024px) {
     max-width: 50%;
+    padding: 60px;
+
   }
 `
 
@@ -71,18 +73,22 @@ const Work = styled.div`
   background: #1d1d1f;
   margin: 90px auto;
   border-radius: 30px;
-  padding: 60px;
+  padding: 60px 15px;
   box-sizing: border-box;
 
   img {
     margin-bottom: 30px;
-    max-width: 100%;
+    max-width: 90%;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    padding: 60px;
   }
 `
 
 const Quote = styled.section`
   box-sizing: border-box; 
-  padding: 60px;
+  padding: 60px 15px;
   text-align: center;
   font-style: italic;
   margin: 90px auto;
@@ -90,11 +96,12 @@ const Quote = styled.section`
 
   border-radius: 30px;
   img {
-    max-width: 100%;
+    max-width: 90%;
     margin-top: 30px;
   }
   @media only screen and (min-width: 1024px) {
     max-width: 50%;
+    padding: 60px;
   }
 `
 
@@ -103,12 +110,16 @@ const Contact = styled.section`
   border-radius: 30px;
   margin: 90px auto 0px;
   box-sizing: border-box;
-  padding: 60px;
+  padding: 60px 15px;
   p {
     margin-top: 30px;
   }
   img {
-    max-width: 100%;
+    max-width: 90%;
+  }
+
+  @media only screen and (min-width: 1024px) {
+    padding: 60px;
   }
 `
 
@@ -158,7 +169,7 @@ const IndexPage = () => {
         </Work>
         <Contact>
           <img src={CONTACT} width={300} alt="Lars Natus"></img>
-          <p>Saarbrücken, German
+          <p>Saarbrücken, Deutschland
           <br></br>
           me [at] larsnatus.com</p>
           <a href="https://www.linkedin.com/in/larsnatus/" target="_blank" rel="noreferrer">
