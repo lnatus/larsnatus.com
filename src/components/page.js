@@ -3,9 +3,9 @@ import styled from 'styled-components'
 import BG from '../images/bg.jpg'
 
 const PageStyled = styled.section`
-  background-image: url(${BG});
+  /* background-image: url(${BG});
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center top; */
 `
 function Page(props) {
     return (

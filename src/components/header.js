@@ -2,7 +2,7 @@ import React from 'react'
 import { Helmet } from "react-helmet"
 import styled from 'styled-components'
 
-import ICON from '../images/icon.svg'
+import ICON from '../images/icon.png'
 
 const HeaderStyled = styled.header`
   text-align: center;
@@ -16,7 +16,7 @@ function Header(props) {
             <title>{props.title}</title>
         </Helmet>
          <a href="/">
-            <img src={ICON} width={80} alt="Lars Natus Logo"></img>
+            <img src={ICON} width={140} alt="Lars Natus Logo"></img>
         </a>
      </HeaderStyled>
     )

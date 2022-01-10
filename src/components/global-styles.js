@@ -34,6 +34,10 @@ const GlobalStyle = createGlobalStyle`
     margin: 30px 0 0 0;
   }
 
+  h2 {
+    margin: 0;
+  }
+
   h4 {
     font-family: "Amiri";
     display: inline-block;

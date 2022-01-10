@@ -7,11 +7,6 @@ const MainStyled = styled.div`
     p {
     margin: 0 0 10px 0;
     }
-    margin: 0 auto;
-
-    @media only screen and (min-width: 1024px) {
-        max-width: 55%;
-    }
 `
 
 function Main(props) {
