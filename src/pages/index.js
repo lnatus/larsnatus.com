@@ -23,6 +23,8 @@ import SAGILE from '../images/service-agile.svg'
 import SDESIGN from '../images/service-design.svg'
 import SISC from '../images/service-isc.svg'
 import HELLO from '../images/hello.svg'
+import SERVICES from '../images/services.svg'
+import WORK from '../images/work.svg'
 import CONTACT from '../images/contact.svg'
 import MJ from '../images/michael-jordan.svg'
 
@@ -39,11 +41,9 @@ const Section = styled.section`
 `
 
 const Intro = styled.section`
-
-
   background-image: linear-gradient(-45deg, #11A8DB 0%, #612CB8 100%);
   border-radius: 30px;
-  margin: 90px auto 0px;
+  margin: 90px auto;
   box-sizing: border-box;
   padding: 60px;
   p {
@@ -58,12 +58,25 @@ const Intro = styled.section`
 `
 
 const Services = styled.ul`
-  margin: 0;
+  margin: 30px 0;
   padding: 0;
   list-style: none;
   li {
     display: inline-block;
     margin: 10px;
+  }
+`
+
+const Work = styled.div`
+  background: #1d1d1f;
+  margin: 90px auto;
+  border-radius: 30px;
+  padding: 60px;
+  box-sizing: border-box;
+
+  img {
+    margin-bottom: 30px;
+    max-width: 100%;
   }
 `
 
@@ -123,7 +136,7 @@ const IndexPage = () => {
           Mit einem geschulten Auge für Design und der Freude am Erstellen von neuen Inhalten, unterstütze ich darüber hinaus auch in den Bereichen Visualisierung und Content Creation.
         </p>
       </Intro>
-      <h4>Services</h4>
+        <img src={SERVICES} width={240} alt="Services"></img>
         <Services>
           <li>
             <img src={SM365} width={180} alt="M365 Consulting & Development"></img>
@@ -139,11 +152,13 @@ const IndexPage = () => {
           </li>
         </Services>
       <Section>
-        <h4>Work</h4>
-        <WorkList></WorkList>
+        <Work>
+          <img src={WORK} width={240} alt="Work"></img>
+          <WorkList></WorkList>
+        </Work>
         <Contact>
           <img src={CONTACT} width={300} alt="Lars Natus"></img>
-          <p>Saarbrücken, Germany
+          <p>Saarbrücken, German
           <br></br>
           me [at] larsnatus.com</p>
           <a href="https://www.linkedin.com/in/larsnatus/" target="_blank" rel="noreferrer">
