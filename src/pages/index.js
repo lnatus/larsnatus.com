@@ -130,7 +130,7 @@ const IndexPage = () => {
       <Page>
       <Header title={'Lars Natus'}/>
       <Main>
-        <img src={ME} width={300} alt="Lars Natus"></img>
+        <img src={ME} width={400} alt="Lars Natus"></img>
         <section>
           <h1>Lars Natus</h1> 
           <h2>Solution Architekt <Middot /> 
