@@ -55,7 +55,6 @@ const Intro = styled.section`
   @media only screen and (min-width: 1024px) {
     max-width: 50%;
     padding: 60px;
-
   }
 `
 

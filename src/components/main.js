@@ -5,7 +5,11 @@ const MainStyled = styled.div`
     text-align: center;
     padding: 0 2em;
     p {
-    margin: 0 0 10px 0;
+        margin: 0 0 10px 0;
+    }
+    
+    img {
+        max-width: 100%;
     }
 `
 
