@@ -36,7 +36,7 @@ const Section = styled.section`
 
   margin: 0 auto;
   @media only screen and (min-width: 1024px) {
-    max-width: 50%;
+    max-width: 60%;
   }
 `
 
@@ -154,16 +154,16 @@ const IndexPage = () => {
         <img src={SERVICES} width={240} alt="Services"></img>
         <Services>
           <li>
-            <img src={SM365} width={360} alt="M365 Consulting & Development"></img>
+            <img src={SM365} width={330} alt="M365 Consulting & Development"></img>
           </li>
           <li>
-            <img src={SAGILE} width={360} alt="Agile Project Management"></img>
+            <img src={SAGILE} width={330} alt="Agile Project Management"></img>
           </li>
           <li>
-           <img src={SDESIGN} width={360} alt="Design & Content Creation"></img>
+           <img src={SDESIGN} width={330} alt="Design & Content Creation"></img>
           </li>
           <li>
-            <img src={SISC} width={360} alt="Information Security Consulting"></img>
+            <img src={SISC} width={330} alt="Information Security Consulting"></img>
           </li>
         </Services>
       <Section>
