@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   *{
-    font-family: "Open Sans";
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
     font-size: 20px;
   }
 
@@ -28,18 +28,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   h1 {
-    font-family: "Amiri";
-    font-size: 54px;
+    font-size: 64px;
+    font-weight: bolder;
     display: inline-block;
     margin: 30px 0 0 0;
   }
 
   h2 {
+    font-weight: 300;
     margin: 0;
   }
 
   h4 {
-    font-family: "Amiri";
     display: inline-block;
     font-size: 38px;
   }

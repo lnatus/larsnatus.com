@@ -40,6 +40,10 @@ const Section = styled.section`
   }
 `
 
+const Spacer = styled.section`
+  margin-top: 90px;
+`
+
 const Intro = styled.section`
   background-image: linear-gradient(-45deg, #11A8DB 0%, #612CB8 100%);
   border-radius: 30px;
@@ -59,7 +63,7 @@ const Intro = styled.section`
 `
 
 const Services = styled.ul`
-  margin: 30px 0;
+  margin: 0px 0;
   padding: 0;
   list-style: none;
   li {
@@ -147,18 +151,21 @@ const IndexPage = () => {
         </p>
       </Intro>
         <img src={SERVICES} width={240} alt="Services"></img>
+        <Spacer/>
         <Services>
           <li>
-            <img src={SM365} width={180} alt="M365 Consulting & Development"></img>
+            <img src={SM365} width={360} alt="M365 Consulting & Development"></img>
           </li>
           <li>
-            <img src={SAGILE} width={180} alt="Agile Project Management"></img>
+            <img src={SAGILE} width={360} alt="Agile Project Management"></img>
+          </li>
+        </Services>
+        <Services>
+          <li>
+           <img src={SDESIGN} width={360} alt="Design & Content Creation"></img>
           </li>
           <li>
-           <img src={SDESIGN} width={180} alt="Design & Content Creation"></img>
-          </li>
-          <li>
-            <img src={SISC} width={180} alt="Information Security Consulting"></img>
+            <img src={SISC} width={360} alt="Information Security Consulting"></img>
           </li>
         </Services>
       <Section>
