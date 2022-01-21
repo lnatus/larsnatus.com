@@ -15,7 +15,7 @@
     </defs>
     <g id="Artboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" fill="url(#linearGradient-1)" x="0" y="0" width="500" height="500" rx="30"></rect>
-        <g id="Group-2" transform="translate(128.000000, 53.000000)">
+        <g id="Group-2" opacity="0.602937971" transform="translate(128.000000, 53.000000)">
             <g id="Group-3" transform="translate(0.000000, 0.000000)">
                 <g id="Group-13">
                     <g id="Fill-10-Clipped">
@@ -44,10 +44,10 @@
             </g>
             <path d="M98.8520961,17.1979317 L113.564985,5.56184979 C80.0446455,7.76355473 53.3856049,35.2380612 52.2343802,69.2278948 L52.2396023,73.9450833 C52.7342729,87.913253 57.5428315,100.780093 65.3630889,111.236997 L97.8152819,111.236997 C84.13446,104.202526 74.5482002,90.2190732 73.6780169,73.9450833 L73.6727949,69.2278948 C74.7618296,47.7963756 90.9696489,30.3112093 111.757206,27.4021888 L98.8520961,17.1979317 Z" id="Fill-6" fill="#FFFFFF" fill-rule="nonzero"></path>
         </g>
-        <text id="Agile-Project-Manage" font-family="SFProDisplay-Heavy, SF Pro Display" font-size="54" font-weight="600" fill="#FFFFFF">
-            <tspan x="184.373047" y="323">Agile</tspan>
-            <tspan x="157.663086" y="387">Project</tspan>
-            <tspan x="80.3808594" y="451">Management</tspan>
+        <text id="Agile-Project-Manage" opacity="0.6" font-family="SFProDisplay-Heavy, SF Pro Display" font-size="54" font-weight="600" fill="#FFFFFF">
+            <tspan x="185.373047" y="323">Agile</tspan>
+            <tspan x="158.663086" y="387">Project</tspan>
+            <tspan x="81.3808594" y="451">Management</tspan>
         </text>
     </g>
 </svg>
