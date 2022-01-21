@@ -53,7 +53,7 @@ const Intro = styled.section`
     max-width: 90%;
   }
   @media only screen and (min-width: 1024px) {
-    max-width: 50%;
+    max-width: 60%;
     padding: 60px;
   }
 `
@@ -68,7 +68,7 @@ const Services = styled.ul`
   }
 
   @media only screen and (min-width: 1024px) {
-    max-width: 50%;
+    max-width: 60%;
     padding: 60px;
   }
 `
@@ -104,7 +104,7 @@ const Quote = styled.section`
     margin-top: 30px;
   }
   @media only screen and (min-width: 1024px) {
-    max-width: 50%;
+    max-width: 60%;
     padding: 60px;
   }
 `
