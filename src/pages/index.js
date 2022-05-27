@@ -11,6 +11,7 @@ import GlobalStyle from '../components/global-styles'
 import Link from '../components/link'
 import WorkList from '../components/work-list'
 import Middot from '../components/middot'
+import Exali from '../components/exali'
 
 import CV from '../files/Lars-Natus-CV.pdf'
 import ISO from '../files/Lars-Natus-Information-Security-Officer.pdf'
@@ -201,7 +202,8 @@ const IndexPage = () => {
           Others make it happen
         </p>
         <img src={MJ} width={500} alt="Lars Natus"></img>
-      </Quote>   
+      </Quote> 
+      <Exali />  
     </Main>
     <Footer/> 
     </Page>
